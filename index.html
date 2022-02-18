@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.1/font/bootstrap-icons.css">
+    
+   <style>
+     html,body {
+       height: 100%;
+       padding: 100%;
+    margin:0;
+    padding:0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+
+}
+  
+
+        @media screen and (max-width: 768px) {[data-aos-delay] {transition-delay: 0 !important;}}
+        header {
+          background-color: blue;
+          padding-bottom: 10px;
+          width: 100%;
+        }
+       header a {
+          text-decoration: none;
+          color: red;
+          text-transform: uppercase;
+        }
+
+        a span {
+          font-size: 25px;
+          position: relative;
+          top: 10px;
+        }
+
+        .data-sekolah li {
+          float: left;
+          list-style-type: none;
+          position: relative;
+          padding-right: 20px;
+          left: 50px;
+          top: 10px;
+        }
+
+        .alamat {
+          color: white;
+        }
+        @media only screen and (max-width: 768px) {
+          a span {
+          font-size: 25px;
+          position: relative;
+          top: 10px;
+        }
+
+        .data-sekolah li {
+          float: left;
+          list-style-type: none;
+          position: relative;
+          padding-right: 20px;
+          left: 20px;
+          top: 10px;
+        }
+  
+}
+
+
+        .navbar {
+          margin-top: 110px;
+          color: black;
+          width: auto;
+          background: blueviolet;
+        }
+
+         .navbar ul li {
+          list-style-type: none;
+          float: left;
+          margin-left: 120px;
+          position: relative;
+          top: 7px;          
+        }
+        
+        .navbar ul li a{ 
+          text-decoration: none;
+          color: white;
+        }
+        @media only screen and (max-width: 768px) {
+          .navbar {
+          width: auto;
+          margin-top: 160px;
+          color: black;
+          background: blueviolet;
+        }
+
+        .navbar ul li {
+          list-style-type: none;
+          float: left;
+          margin-left: 50px;
+          padding-right: 0px;
+          position: relative;
+          top: 7px;
+        }
+        
+        .navbar ul li a{ 
+          text-decoration: none;
+          color: white;
+        }
+}
+
+footer {
+  display: block;
+  height: 250px;
+  width: auto;
+  background-color: gray;
+}
+
+.social-media ul li{
+  text-decoration: none;
+  list-style-type: none;
+  float: left;
+  margin-left: -30px;
+  margin-top: -10px;
+  padding-right: 40px;
+
+}
+@media only screen and (max-width: 768px) {
+  footer {
+  width: auto;
+  display: block;
+  height: 300px;
+  background-color: gray;
+}
+
+.social-media ul li{
+  text-decoration: none;
+  list-style-type: none;
+  float: left;
+  margin-left: -30px;
+  margin-top: -10px;
+  padding-right: 40px;
+
+}
+
+.social-media .copyright{
+padding-bottom: 20px;
+}
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+        
+      </style>
+    <title>Senior High School</title>
+  </head>
+  <body>
+    
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+     <img src="images/logo1.png" height="100">
+     <a href="index.php">
+    <span >Parma Senior High School</span>
+    </a> 
+    <span class="alamat">
+      <ul class="data-sekolah">
+        <li>
+        <i class="bi bi-telephone"></i>
+        <span>
+        0891-6874-3185
+        </span>
+        </li>
+        
+        <li>
+        <i class="bi bi-envelope"></i>
+        <span>
+          ParmaSHS@gmail.com
+        </span>
+        </li>
+        <li>
+        <i class="bi bi-map"></i>
+        <span>
+        Jl.SamanHudi,Jakarta
+        </span>
+        </li>
+      </ul>
+    </span>
+ 
+    </div>
+  </header>
+
+  <div id="navbar" class="navbar order-last order-lg-0">
+      <ul>
+        <li><a href="index.php">Home</a></li>
+        <li><a href="profil.html">Profil</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="ekstra.html">Ekstrakulikuler</a></li>
+        <li><a href="proker.html">Program Kerja</a></li>
+      </ul>
+  </div>
+
+  <main>
+    <div class="container" style="margin-top: 20px;">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" >
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/1.jpg" class="d-block w-100" alt="..." height="550px">
+    </div>
+    <div class="carousel-item">
+      <img src="images/2.jpg" class="d-block w-100" alt="..." height="550px">
+    </div>
+    <div class="carousel-item">
+      <img src="images/labk.jpg" class="d-block w-100" alt="..." height="550px">
+    </div>
+    <div class="carousel-item">
+      <img src="images/3.jpg" class="d-block w-100" alt="..." height="550px">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<br>
+<div class="row">
+  <div class="col-4">
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"><a href="prakata.html"> Prakata Kepala Sekolah</a> </h5>
+    <p class="card-text">Bismillahirohmannirrohim Assalamualaikum Warahmatullah Wabarakatuh Kami mengucapkan selamat datang di Website kami Sekolah Menengah Kejuruan Parma SamanHudi yang saya tujukan untuk seluruh unsur pimpinan, guru, karyawan dan siswa masyarakat guna.....</p>
+  </div>
+</div>
+  </div>
+
+  <div class="col-4">
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title"> <a href="programsklh.html">Program Sekolah</a> </h5>
+    <p class="card-text">Program Tahunan Sekolah SMK Parma SamanHudi yang akan dilaksanakan selama setahun kegiatan pembelajaran adalah sebagai berikut.... </p>
+
+  </div>
+</div>
+  </div>
+
+  <div class="col-4">
+  <div class="card" style="width: 18rem;" style="height: fit-content;">
+  <div class="card-body">
+    <h5 class="card-title"> <a href="programahli.html"> Program Keahlian</a></h5>
+    <p class="card-text">Program Keahlian yang ada di SMK PARMA SAMANHUDI ada 5, ini hampir semuanya merupakan satu-satunya program keahlian yang ada di Indonesia, kecuali untuk program ICT ada untuk yang 3 tahun tapi untuk yang 4 tahun di sekolah ini merupakan...</p>
+  </div>
+</div>
+  </div>
+</div>
+
+<br>
+<div class="row">
+  <div class="col-4">
+  <h5 class="card-title">News</h5>
+  <div class="card" style="width: 18rem;">
+  <img src="images/4.png" class="card-img-top" alt="...">
+  <div class="card-body">
+  <h5 class="card-title">MASK-ON</h5>
+    <p class="card-text">COVID-19 adalah penyakit yang disebabkan oleh virus severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). COVID-19...</p>
+    <a href="mask.html" class="btn btn-primary">Baca Selengkapnya</a>
+  </div>
+</div>
+  </div>
+  <div class="col-4">
+  <div class="card" style="width: 18rem;">
+  <img src="images/4.jpg" class="card-img-top" alt="..." height="250px">
+  <div class="card-body">
+  <h5 class="card-title">PPDB AJARAN BARU</h5>
+    <p class="card-text">Buat kalian calon peserta didik baru,catat baik-baik jadwal Penerimaan Peserta Didik...</p>
+    <a href="ppdb.html" class="btn btn-primary">Baca Selengkapnya</a>
+  </div>
+</div>
+  </div>
+  
+  <div class="col-4">
+  <div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Profil Pelajar Pancasila</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Event Sosialisasi</h6>
+    <p class="card-text">telah melaksanakan sosialisasi Profil Pelajar Pancasila...</p>
+    <a href="sosialisasi.html" class="card-link">Baca Selengkapnya</a>
+  </div>
+</div>
+<br>
+<div class="card" style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title">Masker Itu Penting</h5>
+    <h6 class="card-subtitle mb-2 text-muted">Masker Saat Tatap Muka</h6>
+    <p class="card-text">Pentingnya Masker Saat Sekolah Tatap Muka...</p>
+    <a href="https://www.kompas.com/sains/read/2021/04/07/160200923/studi-pentingnya-ventilasi-dan-memakai-masker-saat-sekolah-tatap-muka?page=all" class="card-link">Baca Selengkapnya</a>
+  </div>
+</div>
+<br>
+
+  </div>
+  </div>
+</div>
+</div>
+  </main>
+ 
+
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <footer id="footer">
+
+  <div class="row">
+    <div class="col-4 mt-3">
+      <div class="social-media">
+      <p>Social Media<p>
+    <ul>
+      <li><a href="https://www.facebook.com/profile.php?id=100075735309856"><i class="bi bi-facebook"></i></a></li>
+      <li><a href="https://twitter.com/ParmaSenior"><i class="bi bi-twitter"></i></a></li>
+      <li><a href="https://www.instagram.com/parma_seniorhigschool/"><i class="bi bi-instagram"></i></a></li>
+      <li><a href="https://www.youtube.com/channel/UC1EXQBnkXWrhQVck1xZjkjw"><i class="bi bi-youtube"></i></a></li>
+    </ul>
+    <br>
+    <p>
+    Ayo Follow dan Ikuti informasi seputar kegiatan di SMK PARMA SAMANHUDI di social media kami.
+    </p>
+      </div>
+    </div>
+
+    <div class="col-4 mt-3">
+      <p>Link Tautan<p>
+    <ul>
+      <li><a href="https://www.merdeka.com/jabar/ujian-nasional-2021-ditiadakan-ini-pengganti-un-sebagai-syarat-kelulusan.html">Berita Tentang UN</a></li>
+      <li><a href="ppdb.html">PPDB Parma Senior High School</a></li>
+      <li><a href="https://www.kemdikbud.go.id/main/blog/2021/09/serbaserbi-pembelajaran-tatap-muka-terbatas-di-wilayah-ppkm-level-3">Berita Sekolah Tatap Muka</a></li>
+    </ul>
+    <br> 
+    </div>
+
+    <div class="col-4 mt-3">
+      <p>Informasi Terkini <p>
+    <ul>
+      <li><a href="mask.html">MASK-ON</a></li>
+      <li><a href="https://www.kompas.com/sains/read/2021/04/07/160200923/studi-pentingnya-ventilasi-dan-memakai-masker-saat-sekolah-tatap-muka?page=all">Masker Itu Penting</a></li>
+      <li><a href="sosialisasi.html">Profil Pelajar Pancasila</a></li>
+    </ul>
+    <br>
+  
+    </div>
+
+    <p class="copyright">
+    Copyright © 2019 - 2021
+    <a href="index.php">
+					Parma Senior High School	</a>
+          All rights reserved.					
+    </p>
+  </div>
+  
+  
+   
+  
+</footer><!-- End Footer -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
